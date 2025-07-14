@@ -1,0 +1,35 @@
+.dropdown-container {
+    position: relative;
+}
+
+.dropdown-container .profileIcon {
+    padding: 0;
+    margin-left: 40px;
+    height: 40px;
+    width: 40px;
+    vertical-align: middle;
+}
+
+.dropdown-container .menu {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    padding: 8px;
+    z-index: 1000;
+    width: 150px;
+    height: 70px;
+}
+
+.dropdown-container .menu ul {
+    margin: 0;
+    padding: 0;
+}
+
+.dropdown-container .userAccountLink,
+.dropdown-container .exitLink {
+    font-weight: normal;
+    font-size: 17px;
+    font-style: normal;
+}

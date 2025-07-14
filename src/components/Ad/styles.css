@@ -1,0 +1,38 @@
+.ad {
+    display: block;
+    width: 1000px;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.ad .namePrice {
+    display: block;
+}
+
+.ad .placeDate {
+    display: block;
+    margin-top: 30px;
+}
+
+.ad .name,
+.ad .price,
+.ad .place,
+.ad .date {
+    display: inline-block;
+}
+
+.ad .price,
+.ad .date {
+    float: right;
+}
+
+.ad .place,
+.ad .date {
+    color: rgb(155, 136, 136);
+}
+
+.ad .name {
+    font-family: Arial, Helvetica, sans-serif;
+}

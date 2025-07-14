@@ -1,0 +1,16 @@
+.categorySection img {
+    display: inline-block;
+    vertical-align: middle;
+    width: 100px;
+    margin: 0px;
+}
+
+.categorySection {
+    display: inline-block;
+    width: 315px;
+}
+
+.categorySection .name {
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+}

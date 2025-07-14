@@ -1,0 +1,9 @@
+.displayType button {
+    border: none;
+    background-color: white;
+    font-size: 14px;
+}
+
+.displayType .active {
+    font-weight: bold;
+}

@@ -1,0 +1,43 @@
+.filter {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 45px;
+}
+
+.filter .filterName,
+.filter button {
+    display: block;
+}
+
+.filter form input {
+    width: 100px;
+    margin: 0px;
+    padding: 0px 0px 0px 10px;
+}
+
+.filter button {
+    width: 100%;
+    margin-top: 20px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(80, 160, 96);
+    color: white;
+}
+
+.filterName {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.filter .from {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: 1px solid rgb(204, 204, 204);
+}
+
+.filter .to {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 1px solid rgb(204, 204, 204);
+}

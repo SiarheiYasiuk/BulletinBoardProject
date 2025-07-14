@@ -1,0 +1,9 @@
+.auth-container .register-button {
+    border: none;
+    border-radius: 3px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    background-color: white;
+    font-weight: 400;
+    color: blue;
+}

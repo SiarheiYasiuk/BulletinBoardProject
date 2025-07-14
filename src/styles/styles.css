@@ -1,0 +1,152 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+ul[class],
+ol[class] {
+    padding: 0;
+    list-style: none;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+    margin: 0;
+}
+
+body {
+    min-height: 100vh;
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+}
+
+a:not([class]) {
+    text-decoration-skip-ink: auto;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+article > * + * {
+    margin-top: 1em;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+
+#container {
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    font-weight: bold;
+    margin-bottom: 0;
+    display: inline-block;
+}
+
+hr {
+    margin: 0;
+    width: 185px;
+    display: block;
+}
+
+button {
+    cursor: pointer;
+}
+
+.auth-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 400px;
+    height: 500px;
+    margin: auto;
+}
+
+.auth-form {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    align-items: flex-start;
+}
+
+.auth-form label {
+    font-size: 18px;
+}
+
+.auth-form input,
+.auth-form textarea {
+    width: 350px;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 2px solid rgba(157, 157, 157, 1);
+    border-radius: 5px;
+    resize: none;
+}
+
+.auth-form input {
+    height: 30px;
+}
+
+.auth-form button {
+    border: none;
+    border-radius: 3px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    background-color: rgba(80, 160, 96, 1);
+    color: #fff;
+    width: 230px;
+    height: 45px;
+}
+
+.auth-form .email {
+    width: 350px;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 2px solid rgba(157, 157, 157, 1);
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.auth-form .error-message {
+    color: red;
+}
+
+.auth-form .submit-message {
+    color: green;
+}

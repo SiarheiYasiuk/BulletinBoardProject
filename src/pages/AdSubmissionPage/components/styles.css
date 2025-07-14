@@ -1,0 +1,9 @@
+.adSubmissionPage .auth-container .categoryName {
+    margin: 5px auto 5px 0;
+    font-size: 20px;
+}
+
+.adSubmissionPage .auth-form {
+    margin-top: 0;
+    padding-bottom: 15px;
+}

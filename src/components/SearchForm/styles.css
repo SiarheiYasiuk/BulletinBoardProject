@@ -1,0 +1,26 @@
+.searchForm * {
+    display: inline-block;
+}
+
+.searchForm button {
+    vertical-align: middle;
+    padding: 0px;
+    height: 30px;
+    border: none;
+    background-color: white;
+    display: inline-flex;
+    margin-left: -40px;
+}
+
+.searchForm input {
+    vertical-align: middle;
+    font-size: 18px;
+    height: 37px;
+    width: 600px;
+    border-radius: 5px;
+    border: none;
+}
+
+.searchForm input:disabled {
+    background-color: white;
+}

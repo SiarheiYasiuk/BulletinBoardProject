@@ -1,0 +1,8 @@
+.blockAds {
+    width: 1000px;
+    display: inline-block;
+}
+
+.blockAds .loaderWrapper {
+    height: 900px;
+}
